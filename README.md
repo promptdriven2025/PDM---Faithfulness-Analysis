@@ -32,7 +32,7 @@ This repository contains scripts for processing, analyzing, and indexing text da
 
 ### 6. `TrueTeacher.py`
 - **Purpose**: Processes feature data and runs Pyserini retrieval with FAISS & Lucene searchers.
-- **Inputs**: `feature_data_asrc_new.csv`, `feature_data_asrc_new_F.csv`
+- **Inputs**: `feature_data_comp_new.csv`, `feature_data_comp_new_F.csv`
 - **Outputs**: Enhanced CSVs with evaluation metrics
 
 ### 7. `TrueTeacher_utils.py`
