@@ -17,7 +17,7 @@ from TrueTeacher_utils import *
 import socket
 
 if __name__ == '__main__':
-    cp = "asrc"
+    cp = "comp"
     online = False
     EF_debug = False
     print(f"starting {cp} analysis...")
@@ -44,7 +44,7 @@ if __name__ == '__main__':
             df[measure] = "nan"
 
    
-    if cp == 'asrc':
+    if cp == 'comp':
         
         df[['round_no', 'query_id', 'username', 'creator']] = df.docno.apply(lambda x: pd.Series(x.split('-')))
         df[['round_no', 'query_id', 'username']] = df[['round_no', 'query_id', 'username']].astype(int).astype(str)
